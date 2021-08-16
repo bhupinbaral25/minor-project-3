@@ -50,6 +50,13 @@ def datasplit(dataframe, test_size : float ):
         test_set = dataframe.loc[test_index]
     return train_set, test_set
 
+def getdiscretization(dataframe, feature: str, bins: list):
+    fall_bin = np.digitize(dataframe[feature], bins=bins)
+    binned_feature = pd.Series(fall_bin)
+    dataframe = dataframe.drop(feature, axis=1)
+    dataframe[feature] = binned_feature.values
+    return dataframe
+
 
 def model_building(model, x_train, y_train):
 

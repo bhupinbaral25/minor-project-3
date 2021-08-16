@@ -1,0 +1,10 @@
+EDA-NON_Timeseries/src/__pycache__
+.ipynb_checkpoints
+EDA_timeseries/dataset/
+EDA_timeseries/__pycache__/
+EDA_timeseries/.ipynb_checkpoints
+EDA-NON_Timeseries/__pycache__/
+EDA-NON_Timeseries/src/
+EDA-NON_Timeseries/src/.ipynb_checkpoints
+EDA-NON_Timeseries/src/heart.csv
+EDA-NON_Timeseries/src/heart.html
